@@ -1,0 +1,152 @@
+.lunar_day {
+  position: absolute;
+  font-size: 0.7rem;
+  bottom: 0;
+  right: 3px;
+  color: rgb(173, 173, 175);
+}
+
+@media (max-width: 640px) {
+  .lunar_day {
+    font-size: 0.6rem;
+    right: -2px;
+  }
+  .lunar_today {
+    bottom: 6px;
+    right: -6px;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.event-container {
+  box-shadow: rgb(178 201 211 / 16%) 0px 4px 13.65px 7.35px;
+}
+
+.event-timeline-section {
+  margin-top: 300px;
+}
+
+@media (max-width: 640px) {
+  .event-timeline-section {
+    margin-top: 100px;
+  }
+}
+
+.event-tab-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .event-tab-container {
+    margin-top: 65px;
+  }
+}
+
+.event-tab-container > .event-tab {
+  text-align: center;
+  display: flex;
+}
+
+.event-tab > .event-tab-item {
+  padding: 10px 10px;
+  font-size: 2rem;
+  font-family: dancing_scriptregular, cursive;
+}
+
+@media (max-width: 640px) {
+  .event-tab > .event-tab-item {
+    font-size: 1.8rem;
+  }
+}
+
+.event-tab > .event-tab-item:hover {
+  cursor: pointer;
+}
+
+.event-tab > .event-tab-active {
+  border-bottom: 3px solid rgb(62, 163, 170);
+}
+
+.story-section .event-block {
+  padding: 70px;
+}
+
+@media (max-width: 640px) {
+  .story-section .event-block {
+    padding: 30px;
+  }
+}
+
+.event-block .img-holder img {
+  height: 320px;
+  width: 100%;
+}
+
+.event-block-content p {
+  text-align: center;
+}
+
+.event-block-content > h5 {
+  font-family: GreatVibes, cursive;
+  font-size: 2.8rem !important;
+}
+
+.event_address {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event_map {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+
+.event_map img {
+  margin-left: 0px !important;
+}
+
+
+@media (max-width: 640px) {
+  .event_address_detail{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .story-section .story-block {
+    padding: 50px 25px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.3;
+  }
+
+  60% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.qr-code {
+  margin-right: 0px !important;
+}
